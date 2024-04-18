@@ -13,7 +13,7 @@ public class FpsController : MonoBehaviour
     public float gravity = -9.8f;
 
     public float mouseTurnSpeed = 2f;
-    public float lookLimit = 2f;
+    public float lookLimit = 90f;
 
     Vector3 movDir = Vector3.zero;
     float rotationX = 2f;
